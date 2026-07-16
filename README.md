@@ -1,0 +1,2 @@
+# Telecom-Customer-Churn-Revenue-Risk-Analytical-Framework
+This end-to-end data analytics project analyzes 7,000+ telecom users to predict churn and quantify revenue risk. Data was extracted via advanced SQL and engineered using Python. Statistical modeling, including Logistic Regression, isolated key churn drivers. Finally, an interactive Power BI dashboard was built to drive robust retention strategies.
