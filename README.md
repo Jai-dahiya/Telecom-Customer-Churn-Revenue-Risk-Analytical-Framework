@@ -1,18 +1,26 @@
-# Telecom Customer Churn & Revenue Risk Analysis 📉
+# Telecom Customer Churn & Revenue Risk Analytical Framework
 
-## Project Overview
-This project analyzes customer churn in the telecommunications sector to identify key risk factors and quantify the associated financial loss. 
+## 📌 Project Overview
+An end-to-end analytical framework designed to identify latent patterns in customer behavior, determine the statistical drivers of attrition, and provide data-driven retention strategies to minimize forecasted revenue leakage.
 
-## Key Findings
-* **Revenue at Risk:** The company is currently losing **$139,130.85** in monthly revenue due to customer churn.
-* **Contract Vulnerability:** Customers on **Month-to-Month contracts** churn at a significantly higher rate than those on structured 1-year or 2-year contracts.
-* **Tenure Drop-off:** The average churned customer leaves after just **~18 months**, compared to a ~37-month retention for active customers. 
-* **Product Failure:** The **Fiber Optic** internet service has an alarmingly high churn rate (1,297 customers lost), indicating potential technical or pricing issues with the premium tier.
+## 🏗️ Technical Architecture & Methodology
 
-## Visualizing Churn by Internet Service
-![Churn by Internet Service](churn_by_internet.png)
+* **Data Engineering & Feature Extraction:** Orchestrated the extraction and integration of billing and usage records for 7,000+ unique profiles utilizing **SQL** and **Python (Pandas)**; engineered sophisticated churn-risk features to identify latent patterns in customer behavior.
+* **Statistical Analysis & Financial Modeling:** Conducted **Chi-Square and correlation analysis** to determine statistical drivers of attrition; modeled revenue-at-risk projections via **Advanced Excel** to quantify the financial impact of service tenure and support ticket volume.
+* **Business Intelligence & Strategy:** Architected a **Power BI visualization suite** tracking segment-wise KPIs; delivered data-driven retention strategies that provided actionable roadmaps for minimizing forecasted revenue leakage.
 
-## Tech Stack
-* Python (Pandas, Matplotlib, Seaborn)
-* Data Cleaning & Aggregation
-* Business Intelligence & Risk Analysis
+## 📊 Repository Assets & Codebase
+* `analysis.py`: Python algorithms for data cleaning, feature engineering, and statistical testing (Chi-Square/Pearson).
+* `churn_analysis.sql`: SQL scripts for raw data extraction and usage record integration.
+* `Revenue_Risk_Model.xlsx`: Advanced Excel model detailing segment-wise revenue-at-risk projections based on service tenure.
+* `churn_by_internet.png`: Matplotlib/Seaborn visual output.
+
+---
+
+## ⚠️ Note on Enterprise Assets (Power BI)
+
+This repository contains the complete Python engineering scripts, SQL queries, statistical models, and the core Excel financial framework.
+
+**However, due to GitHub's file size constraints and lack of native rendering support for highly interactive Business Intelligence assets (`.pbix` files), the final Power BI visualization suite tracking segment-wise KPIs is hosted locally.**
+
+This suite represents the final strategic deliverable of this framework. I am fully prepared to provide a live technical walkthrough and screen-share the complete Power BI dashboard during interview rounds upon request.
